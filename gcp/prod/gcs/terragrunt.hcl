@@ -22,5 +22,5 @@ include {
 
 inputs = {
   bucket_name="tf-canbedelete"
-  location="region"
+  location=local.region
 }
