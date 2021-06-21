@@ -3,7 +3,7 @@ locals {
   project_vars = read_terragrunt_config(find_in_parent_folders("project.hcl"))
 
   # Extract the variables we need for easy access
-  project_name = local.project_vars.locals.project_name
+  project_id = local.project_vars.locals.project_id
   region   = local.project_vars.locals.region
   primary_zone   = local.project_vars.locals.primary_zone
 }

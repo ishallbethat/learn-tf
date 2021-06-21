@@ -1,5 +1,5 @@
 locals {
-  project_name   = "gabrielhome"
+  project_id   = "gabrielhome"
   region = "asia-east1"
   primary_zone    = "asia-east1"
   tf_bucket      = "tf-gabrielhome-bucket"
